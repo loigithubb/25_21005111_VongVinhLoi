@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.head{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.head_trai{
+    width: 45%;
+    display: flex;   
+    justify-content: space-between
+}
+.header_chu{
+    list-style: none;
+    line-height: 60px;
+}
+a{
+    text-decoration: none;
+}
+.head_phai{
+    display: flex;
+    width: 450px;
+}
+.head_hinh{
+    margin-left: 10px;
+    width:30px ;
+    height: 25px;
+    margin-top: 10px;
+}
+.than{
+    
+    width: 85%;
+    margin: auto;
+}
+.than1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+.than1_chu{
+    list-style: none;
+}
+.than3{
+    display: flex;
+    justify-content: space-between;
+}
+.than3_trai{
+    display: flex; 
+}
+h6{
+    line-height: 20px;
+    margin: 0px 3px;
+}
+.than3_phai{
+    display: flex;
+    
+}
+.than3_phaichu{
+    margin: 0px 5px;
+}
+.than5{
+    width: 70%;
+    display: flex;
+}
+.than5_trai{
+    display: flex;
+    flex-direction: column;
+}
+.than5_trai_hinhchu{
+    display: flex;
+    flex-direction: column;
+}
+.than5_trai_hinhchucuoi{
+    display: flex;
+    justify-content: flex-start;
+}
+.oke{
+    display: flex;
+
+}
