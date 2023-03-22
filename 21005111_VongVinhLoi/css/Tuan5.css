@@ -4,7 +4,7 @@
     
 }
 .wrapper{
-    height: 3000px;
+    height: 2490px;
 }
 .head{
     margin-top: 10px;
@@ -214,4 +214,40 @@ height: 330px;
 }
 .than10_giua{
 position: relative;
+}
+.than11{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+.than11_phan1{
+    display: flex;
+    flex-direction: column;
+    margin:0px 50px;
+}
+.than11_phan1 h3{
+    margin-bottom: 20px;
+}
+.than11_phan1 li{
+    margin-bottom: 10px;
+    
+}
+.than12{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.than12_giua{
+    display: flex;
+    
+}
+.than12_phai{
+    display: flex;
+    
+}
+.than12_hinh{
+    height: 23px;
+    width: 23px;
+    margin-left: 15px;
 }
