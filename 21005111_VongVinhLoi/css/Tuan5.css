@@ -3,6 +3,9 @@
     margin: 0;
     
 }
+.wrapper{
+    height: 2000px;
+}
 .head{
     margin-top: 10px;
     display: flex;
@@ -16,7 +19,7 @@
 }
 .header_chu{
     list-style: none;
-    line-height: 60px;
+    margin-top: 15px;
 }
 a{
     text-decoration: none;
@@ -35,6 +38,7 @@ a{
     
     width: 85%;
     margin: auto;
+    height: 100%;
 }
 .than1{
     margin-top: 30px;
@@ -47,6 +51,8 @@ a{
 .than3{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 12px;
 }
 .than3_trai{
     display: flex; 
@@ -62,13 +68,38 @@ h6{
 .than3_phaichu{
     margin: 0px 5px;
 }
+.than4{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 15px ;
+    
+}
+.grid-item1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+.than4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
 .than5{
-    width: 70%;
+    
     display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    border-color: aliceblue;
+
 }
 .than5_trai{
     display: flex;
     flex-direction: column;
+    width: 70%;
+    height: 450px;
+    
 }
 .than5_trai_hinhchu{
     display: flex;
@@ -76,9 +107,32 @@ h6{
 }
 .than5_trai_hinhchucuoi{
     display: flex;
-    justify-content: flex-start;
+    width: 500px;
+   
 }
-.oke{
+.oke1{
     display: flex;
-
+    width: 180px;
+    height: 30px;
+    margin-top: 30px;
+}
+.oke2{
+    display: flex;
+    margin-top: 25px;
+}
+.than5_trai_hinhchu1{
+    margin-right: 10px;   
+    padding-bottom: -1000px;
+}
+.than5_trai_hinhchu2{
+    margin-top: 2px;
+}
+.than5_phai{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+border: 2px solid;
+padding: 10px 20px 8px 20px ;
+border-color: aliceblue;
+height: 330px;
 }
