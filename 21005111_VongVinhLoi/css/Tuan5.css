@@ -4,7 +4,7 @@
     
 }
 .wrapper{
-    height: 2000px;
+    height: 3000px;
 }
 .head{
     margin-top: 10px;
@@ -94,38 +94,29 @@ h6{
     border-color: aliceblue;
 
 }
+.than5_trai_hinhchu{
+    display: flex;
+
+}
 .than5_trai{
     display: flex;
     flex-direction: column;
     width: 70%;
-    height: 450px;
+    height: 400px;
     
 }
-.than5_trai_hinhchu{
+.than5_trai_1{
     display: flex;
     flex-direction: column;
+
 }
-.than5_trai_hinhchucuoi{
+.than5_trai_1 div{
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.than5_trai_11{
     display: flex;
-    width: 500px;
-   
-}
-.oke1{
-    display: flex;
-    width: 180px;
-    height: 30px;
-    margin-top: 30px;
-}
-.oke2{
-    display: flex;
-    margin-top: 25px;
-}
-.than5_trai_hinhchu1{
-    margin-right: 10px;   
-    padding-bottom: -1000px;
-}
-.than5_trai_hinhchu2{
-    margin-top: 2px;
+    justify-content: flex-start;
 }
 .than5_phai{
 display: flex;
@@ -135,4 +126,92 @@ border: 2px solid;
 padding: 10px 20px 8px 20px ;
 border-color: aliceblue;
 height: 330px;
+}
+.than6{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    padding-bottom: 60px;
+    border-bottom: 2px solid ;
+    border-color: aliceblue;
+}
+.t6_1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.t6_11{
+    display: flex;
+    align-items: center;
+}
+.t6_12{
+    display: flex;
+}
+.t6_2{
+    display: flex;
+    flex-direction: column;
+}
+.t6_21hinh{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.t6_2{
+    display: flex;
+    flex-direction: column;
+}
+.t6_21{
+    display: flex;
+    flex-direction: column;
+}
+.t6_22{
+    display: flex;
+    flex-direction: column;
+}
+.baohet{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.phan2{
+    margin-right: 80px;
+}
+
+.than7{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid;
+    border-color: aliceblue;
+}
+.than7tren{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.than7duoi{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.than8{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.than9{
+    display: flex;  
+    justify-content: center;
+   
+}
+.than10{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.than10_giua{
+position: relative;
 }
